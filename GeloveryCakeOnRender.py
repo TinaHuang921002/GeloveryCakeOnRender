@@ -21,7 +21,7 @@ def callback():
         abort(400)
     return 'OK'
 
-baseurl = 'https://8d18-119-77-180-85.ngrok-free.app/static/'  #靜態檔案網址
+baseurl = 'https://geloverycakeonrender.onrender.com/static/'  #靜態檔案網址
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
